@@ -65,7 +65,7 @@ start.addEventListener('click', function startGame(event) {
 
     let backButton = document.createElement('button');
     let backLink = document.createElement('a');
-    backLink.href = 'game.html';
+    backLink.href = 'index.html';
     backLink.textContent = 'Back';
     backButton.append(backLink);
     main.after(backButton);
@@ -210,7 +210,7 @@ start.addEventListener('click', function startGame(event) {
                         result.append(message);
                         let resButton = document.createElement('button');
                         let restart = document.createElement('a');
-                        restart.href = 'game.html';
+                        restart.href = 'index.html';
                         restart.textContent = 'Restart';
                         resButton.append(restart);
                         main.after(resButton);

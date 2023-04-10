@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 800px;
+    /* border: 1px solid black; */
+}
+
+.field {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    /* margin-bottom: 0px; */
+}
+
+.active {
+    background-color: black;
+}
+
+.notActive {
+    background-color: white;
+}
+
+.disNon {
+    display: none;
+}
+
+.person {
+    /* background-color: green; */
+}
+
+.loose {
+    background-color: red;
+}
+
+.mario,
+.walls {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    margin-top: 20px auto;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.main #up {
+    position: relative;
+    /* display: block; */
+    background-image: url('sourse/bg2.png');
+    width: 750px;
+    height: 50px;
+    margin-bottom: -4px;
+
+}
+
+.score {
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+
+.main #down {
+    background-image: url('sourse/bg3.png');
+    width: 750px;
+    height: 50px;
+}
+
+.result {
+    width: 800px;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+.footer {
+    background-image: url('sourse/bg1.png');
+    width: 750px;
+    height: 50px;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+}
